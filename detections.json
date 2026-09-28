@@ -1,0 +1,904 @@
+{
+  "detections": [
+    {
+      "id": "VASA001",
+      "location": "Vasai",
+      "lat": 19.424346,
+      "lon": 72.8064,
+      "confidence": 0.84,
+      "severity": "High",
+      "status": "Investigating",
+      "frame": 1000,
+      "timestamp_sec": 168.87,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        224,
+        311,
+        378,
+        395
+      ]
+    },
+    {
+      "id": "VASA002",
+      "location": "Vasai",
+      "lat": 19.411249,
+      "lon": 72.812215,
+      "confidence": 0.9,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 1048,
+      "timestamp_sec": 174.29,
+      "frames_tracked": 21,
+      "bbox_xyxy": [
+        292,
+        274,
+        467,
+        389
+      ]
+    },
+    {
+      "id": "VASA003",
+      "location": "Vasai",
+      "lat": 19.427211,
+      "lon": 72.81017,
+      "confidence": 0.86,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 1093,
+      "timestamp_sec": 187.97,
+      "frames_tracked": 11,
+      "bbox_xyxy": [
+        227,
+        257,
+        339,
+        382
+      ]
+    },
+    {
+      "id": "VASA004",
+      "location": "Vasai",
+      "lat": 19.423489,
+      "lon": 72.8283,
+      "confidence": 0.93,
+      "severity": "Medium",
+      "status": "Resolved",
+      "frame": 1182,
+      "timestamp_sec": 103.28,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        330,
+        320,
+        509,
+        446
+      ]
+    },
+    {
+      "id": "VASA005",
+      "location": "Vasai",
+      "lat": 19.42591,
+      "lon": 72.806983,
+      "confidence": 0.83,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 1251,
+      "timestamp_sec": 71.21,
+      "frames_tracked": 11,
+      "bbox_xyxy": [
+        374,
+        231,
+        532,
+        392
+      ]
+    },
+    {
+      "id": "VASA006",
+      "location": "Vasai",
+      "lat": 19.412904,
+      "lon": 72.815648,
+      "confidence": 0.91,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 1342,
+      "timestamp_sec": 35.71,
+      "frames_tracked": 28,
+      "bbox_xyxy": [
+        267,
+        296,
+        460,
+        407
+      ]
+    },
+    {
+      "id": "VASA007",
+      "location": "Vasai",
+      "lat": 19.420094,
+      "lon": 72.813259,
+      "confidence": 0.97,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 1407,
+      "timestamp_sec": 91.34,
+      "frames_tracked": 9,
+      "bbox_xyxy": [
+        297,
+        168,
+        500,
+        288
+      ]
+    },
+    {
+      "id": "VASA008",
+      "location": "Vasai",
+      "lat": 19.415426,
+      "lon": 72.811608,
+      "confidence": 0.97,
+      "severity": "Low",
+      "status": "Unresolved",
+      "frame": 1503,
+      "timestamp_sec": 164.2,
+      "frames_tracked": 20,
+      "bbox_xyxy": [
+        632,
+        277,
+        750,
+        390
+      ]
+    },
+    {
+      "id": "VASA009",
+      "location": "Vasai",
+      "lat": 19.414919,
+      "lon": 72.821418,
+      "confidence": 0.83,
+      "severity": "Medium",
+      "status": "Resolved",
+      "frame": 1565,
+      "timestamp_sec": 107.87,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        250,
+        290,
+        413,
+        381
+      ]
+    },
+    {
+      "id": "VASA010",
+      "location": "Vasai",
+      "lat": 19.429666,
+      "lon": 72.80998,
+      "confidence": 0.81,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 1616,
+      "timestamp_sec": 104.65,
+      "frames_tracked": 27,
+      "bbox_xyxy": [
+        419,
+        295,
+        551,
+        445
+      ]
+    },
+    {
+      "id": "VIRA011",
+      "location": "Virar",
+      "lat": 19.459627,
+      "lon": 72.801007,
+      "confidence": 0.96,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 1662,
+      "timestamp_sec": 94.84,
+      "frames_tracked": 17,
+      "bbox_xyxy": [
+        402,
+        200,
+        560,
+        280
+      ]
+    },
+    {
+      "id": "VIRA012",
+      "location": "Virar",
+      "lat": 19.466625,
+      "lon": 72.819135,
+      "confidence": 0.88,
+      "severity": "High",
+      "status": "Investigating",
+      "frame": 1740,
+      "timestamp_sec": 205.17,
+      "frames_tracked": 24,
+      "bbox_xyxy": [
+        491,
+        210,
+        610,
+        337
+      ]
+    },
+    {
+      "id": "VIRA013",
+      "location": "Virar",
+      "lat": 19.456245,
+      "lon": 72.819602,
+      "confidence": 0.89,
+      "severity": "Critical",
+      "status": "Unresolved",
+      "frame": 1805,
+      "timestamp_sec": 24.28,
+      "frames_tracked": 19,
+      "bbox_xyxy": [
+        629,
+        238,
+        759,
+        325
+      ]
+    },
+    {
+      "id": "VIRA014",
+      "location": "Virar",
+      "lat": 19.464372,
+      "lon": 72.824315,
+      "confidence": 0.8,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 1880,
+      "timestamp_sec": 187.33,
+      "frames_tracked": 12,
+      "bbox_xyxy": [
+        245,
+        281,
+        415,
+        382
+      ]
+    },
+    {
+      "id": "VIRA015",
+      "location": "Virar",
+      "lat": 19.455964,
+      "lon": 72.814785,
+      "confidence": 0.97,
+      "severity": "Low",
+      "status": "Investigating",
+      "frame": 1958,
+      "timestamp_sec": 171.77,
+      "frames_tracked": 30,
+      "bbox_xyxy": [
+        339,
+        262,
+        524,
+        425
+      ]
+    },
+    {
+      "id": "VIRA016",
+      "location": "Virar",
+      "lat": 19.453814,
+      "lon": 72.812292,
+      "confidence": 0.8,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 2050,
+      "timestamp_sec": 149.43,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        481,
+        216,
+        581,
+        305
+      ]
+    },
+    {
+      "id": "VIRA017",
+      "location": "Virar",
+      "lat": 19.448795,
+      "lon": 72.823152,
+      "confidence": 0.95,
+      "severity": "Critical",
+      "status": "Unresolved",
+      "frame": 2102,
+      "timestamp_sec": 167.18,
+      "frames_tracked": 14,
+      "bbox_xyxy": [
+        456,
+        193,
+        648,
+        346
+      ]
+    },
+    {
+      "id": "VIRA018",
+      "location": "Virar",
+      "lat": 19.449132,
+      "lon": 72.811043,
+      "confidence": 0.86,
+      "severity": "Critical",
+      "status": "Investigating",
+      "frame": 2207,
+      "timestamp_sec": 97.95,
+      "frames_tracked": 21,
+      "bbox_xyxy": [
+        419,
+        173,
+        605,
+        336
+      ]
+    },
+    {
+      "id": "VIRA019",
+      "location": "Virar",
+      "lat": 19.444755,
+      "lon": 72.81819,
+      "confidence": 0.94,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 2264,
+      "timestamp_sec": 137.98,
+      "frames_tracked": 12,
+      "bbox_xyxy": [
+        396,
+        206,
+        531,
+        345
+      ]
+    },
+    {
+      "id": "VIRA020",
+      "location": "Virar",
+      "lat": 19.464288,
+      "lon": 72.799911,
+      "confidence": 0.94,
+      "severity": "Low",
+      "status": "Unresolved",
+      "frame": 2340,
+      "timestamp_sec": 163.47,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        608,
+        163,
+        719,
+        273
+      ]
+    },
+    {
+      "id": "MIRA021",
+      "location": "Mira Road",
+      "lat": 19.292954,
+      "lon": 72.853878,
+      "confidence": 0.95,
+      "severity": "Low",
+      "status": "Unresolved",
+      "frame": 2406,
+      "timestamp_sec": 20.47,
+      "frames_tracked": 20,
+      "bbox_xyxy": [
+        315,
+        276,
+        451,
+        410
+      ]
+    },
+    {
+      "id": "MIRA022",
+      "location": "Mira Road",
+      "lat": 19.286915,
+      "lon": 72.848708,
+      "confidence": 0.97,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 2513,
+      "timestamp_sec": 184.55,
+      "frames_tracked": 9,
+      "bbox_xyxy": [
+        205,
+        309,
+        366,
+        453
+      ]
+    },
+    {
+      "id": "MIRA023",
+      "location": "Mira Road",
+      "lat": 19.284565,
+      "lon": 72.854619,
+      "confidence": 0.95,
+      "severity": "Critical",
+      "status": "Unresolved",
+      "frame": 2578,
+      "timestamp_sec": 209.6,
+      "frames_tracked": 20,
+      "bbox_xyxy": [
+        241,
+        305,
+        372,
+        459
+      ]
+    },
+    {
+      "id": "MIRA024",
+      "location": "Mira Road",
+      "lat": 19.298065,
+      "lon": 72.852138,
+      "confidence": 0.9,
+      "severity": "Medium",
+      "status": "Resolved",
+      "frame": 2628,
+      "timestamp_sec": 64.94,
+      "frames_tracked": 30,
+      "bbox_xyxy": [
+        340,
+        221,
+        473,
+        351
+      ]
+    },
+    {
+      "id": "MIRA025",
+      "location": "Mira Road",
+      "lat": 19.299321,
+      "lon": 72.8488,
+      "confidence": 0.84,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 2689,
+      "timestamp_sec": 120.82,
+      "frames_tracked": 26,
+      "bbox_xyxy": [
+        231,
+        178,
+        399,
+        285
+      ]
+    },
+    {
+      "id": "MIRA026",
+      "location": "Mira Road",
+      "lat": 19.289565,
+      "lon": 72.866531,
+      "confidence": 0.96,
+      "severity": "Low",
+      "status": "Unresolved",
+      "frame": 2798,
+      "timestamp_sec": 54.7,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        540,
+        237,
+        718,
+        400
+      ]
+    },
+    {
+      "id": "MIRA027",
+      "location": "Mira Road",
+      "lat": 19.299229,
+      "lon": 72.855929,
+      "confidence": 0.97,
+      "severity": "High",
+      "status": "Resolved",
+      "frame": 2844,
+      "timestamp_sec": 78.18,
+      "frames_tracked": 11,
+      "bbox_xyxy": [
+        560,
+        301,
+        679,
+        415
+      ]
+    },
+    {
+      "id": "MIRA028",
+      "location": "Mira Road",
+      "lat": 19.297716,
+      "lon": 72.860493,
+      "confidence": 0.82,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 2925,
+      "timestamp_sec": 127.48,
+      "frames_tracked": 9,
+      "bbox_xyxy": [
+        227,
+        268,
+        433,
+        383
+      ]
+    },
+    {
+      "id": "MIRA029",
+      "location": "Mira Road",
+      "lat": 19.283285,
+      "lon": 72.861991,
+      "confidence": 0.91,
+      "severity": "High",
+      "status": "Investigating",
+      "frame": 2975,
+      "timestamp_sec": 141.37,
+      "frames_tracked": 21,
+      "bbox_xyxy": [
+        467,
+        162,
+        581,
+        251
+      ]
+    },
+    {
+      "id": "MIRA030",
+      "location": "Mira Road",
+      "lat": 19.296294,
+      "lon": 72.863769,
+      "confidence": 0.9,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 3039,
+      "timestamp_sec": 87.82,
+      "frames_tracked": 9,
+      "bbox_xyxy": [
+        640,
+        251,
+        766,
+        418
+      ]
+    },
+    {
+      "id": "DAHI031",
+      "location": "Dahisar",
+      "lat": 19.254106,
+      "lon": 72.855203,
+      "confidence": 0.89,
+      "severity": "Low",
+      "status": "Resolved",
+      "frame": 3115,
+      "timestamp_sec": 184.89,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        622,
+        201,
+        824,
+        303
+      ]
+    },
+    {
+      "id": "DAHI032",
+      "location": "Dahisar",
+      "lat": 19.238695,
+      "lon": 72.865924,
+      "confidence": 0.85,
+      "severity": "Low",
+      "status": "Resolved",
+      "frame": 3212,
+      "timestamp_sec": 210.09,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        316,
+        200,
+        516,
+        369
+      ]
+    },
+    {
+      "id": "DAHI033",
+      "location": "Dahisar",
+      "lat": 19.247281,
+      "lon": 72.846384,
+      "confidence": 0.87,
+      "severity": "High",
+      "status": "Resolved",
+      "frame": 3270,
+      "timestamp_sec": 96.92,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        294,
+        166,
+        478,
+        270
+      ]
+    },
+    {
+      "id": "DAHI034",
+      "location": "Dahisar",
+      "lat": 19.245978,
+      "lon": 72.869502,
+      "confidence": 0.97,
+      "severity": "High",
+      "status": "Investigating",
+      "frame": 3366,
+      "timestamp_sec": 107.93,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        349,
+        167,
+        463,
+        280
+      ]
+    },
+    {
+      "id": "DAHI035",
+      "location": "Dahisar",
+      "lat": 19.252034,
+      "lon": 72.872839,
+      "confidence": 0.79,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 3433,
+      "timestamp_sec": 193.01,
+      "frames_tracked": 21,
+      "bbox_xyxy": [
+        490,
+        290,
+        604,
+        419
+      ]
+    },
+    {
+      "id": "DAHI036",
+      "location": "Dahisar",
+      "lat": 19.244213,
+      "lon": 72.865146,
+      "confidence": 0.78,
+      "severity": "Low",
+      "status": "Investigating",
+      "frame": 3502,
+      "timestamp_sec": 178.27,
+      "frames_tracked": 29,
+      "bbox_xyxy": [
+        280,
+        253,
+        435,
+        341
+      ]
+    },
+    {
+      "id": "DAHI037",
+      "location": "Dahisar",
+      "lat": 19.253056,
+      "lon": 72.863875,
+      "confidence": 0.8,
+      "severity": "Low",
+      "status": "Investigating",
+      "frame": 3589,
+      "timestamp_sec": 166.72,
+      "frames_tracked": 18,
+      "bbox_xyxy": [
+        386,
+        235,
+        556,
+        331
+      ]
+    },
+    {
+      "id": "DAHI038",
+      "location": "Dahisar",
+      "lat": 19.248191,
+      "lon": 72.87163,
+      "confidence": 0.92,
+      "severity": "Low",
+      "status": "Investigating",
+      "frame": 3658,
+      "timestamp_sec": 86.21,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        606,
+        160,
+        744,
+        276
+      ]
+    },
+    {
+      "id": "DAHI039",
+      "location": "Dahisar",
+      "lat": 19.248417,
+      "lon": 72.86154,
+      "confidence": 0.91,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 3729,
+      "timestamp_sec": 67.01,
+      "frames_tracked": 23,
+      "bbox_xyxy": [
+        586,
+        203,
+        770,
+        293
+      ]
+    },
+    {
+      "id": "DAHI040",
+      "location": "Dahisar",
+      "lat": 19.250471,
+      "lon": 72.863022,
+      "confidence": 0.85,
+      "severity": "Low",
+      "status": "Investigating",
+      "frame": 3810,
+      "timestamp_sec": 168.02,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        592,
+        210,
+        710,
+        293
+      ]
+    },
+    {
+      "id": "VILE041",
+      "location": "Vile Parle",
+      "lat": 19.093876,
+      "lon": 72.829304,
+      "confidence": 0.95,
+      "severity": "Critical",
+      "status": "Unresolved",
+      "frame": 3860,
+      "timestamp_sec": 158.55,
+      "frames_tracked": 14,
+      "bbox_xyxy": [
+        547,
+        258,
+        710,
+        389
+      ]
+    },
+    {
+      "id": "VILE042",
+      "location": "Vile Parle",
+      "lat": 19.091542,
+      "lon": 72.835253,
+      "confidence": 0.96,
+      "severity": "Low",
+      "status": "Resolved",
+      "frame": 3936,
+      "timestamp_sec": 191.25,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        270,
+        292,
+        429,
+        378
+      ]
+    },
+    {
+      "id": "VILE043",
+      "location": "Vile Parle",
+      "lat": 19.110019,
+      "lon": 72.819398,
+      "confidence": 0.81,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 4012,
+      "timestamp_sec": 142.96,
+      "frames_tracked": 18,
+      "bbox_xyxy": [
+        566,
+        273,
+        744,
+        417
+      ]
+    },
+    {
+      "id": "VILE044",
+      "location": "Vile Parle",
+      "lat": 19.107934,
+      "lon": 72.83134,
+      "confidence": 0.96,
+      "severity": "Medium",
+      "status": "Unresolved",
+      "frame": 4111,
+      "timestamp_sec": 77.02,
+      "frames_tracked": 15,
+      "bbox_xyxy": [
+        610,
+        230,
+        808,
+        376
+      ]
+    },
+    {
+      "id": "VILE045",
+      "location": "Vile Parle",
+      "lat": 19.103042,
+      "lon": 72.823689,
+      "confidence": 0.8,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 4218,
+      "timestamp_sec": 90.34,
+      "frames_tracked": 25,
+      "bbox_xyxy": [
+        221,
+        195,
+        340,
+        304
+      ]
+    },
+    {
+      "id": "VILE046",
+      "location": "Vile Parle",
+      "lat": 19.104655,
+      "lon": 72.83578,
+      "confidence": 0.79,
+      "severity": "Medium",
+      "status": "Investigating",
+      "frame": 4312,
+      "timestamp_sec": 111.47,
+      "frames_tracked": 14,
+      "bbox_xyxy": [
+        606,
+        267,
+        755,
+        421
+      ]
+    },
+    {
+      "id": "VILE047",
+      "location": "Vile Parle",
+      "lat": 19.108562,
+      "lon": 72.837437,
+      "confidence": 0.86,
+      "severity": "Critical",
+      "status": "Unresolved",
+      "frame": 4359,
+      "timestamp_sec": 185.76,
+      "frames_tracked": 21,
+      "bbox_xyxy": [
+        455,
+        299,
+        657,
+        456
+      ]
+    },
+    {
+      "id": "VILE048",
+      "location": "Vile Parle",
+      "lat": 19.099718,
+      "lon": 72.823642,
+      "confidence": 0.88,
+      "severity": "High",
+      "status": "Investigating",
+      "frame": 4432,
+      "timestamp_sec": 195.59,
+      "frames_tracked": 13,
+      "bbox_xyxy": [
+        610,
+        279,
+        827,
+        375
+      ]
+    },
+    {
+      "id": "VILE049",
+      "location": "Vile Parle",
+      "lat": 19.109766,
+      "lon": 72.832573,
+      "confidence": 0.91,
+      "severity": "Critical",
+      "status": "Unresolved",
+      "frame": 4480,
+      "timestamp_sec": 210.71,
+      "frames_tracked": 13,
+      "bbox_xyxy": [
+        205,
+        226,
+        353,
+        347
+      ]
+    },
+    {
+      "id": "VILE050",
+      "location": "Vile Parle",
+      "lat": 19.098913,
+      "lon": 72.82545,
+      "confidence": 0.96,
+      "severity": "High",
+      "status": "Resolved",
+      "frame": 4552,
+      "timestamp_sec": 112.74,
+      "frames_tracked": 10,
+      "bbox_xyxy": [
+        420,
+        164,
+        615,
+        313
+      ]
+    }
+  ]
+}
