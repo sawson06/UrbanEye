@@ -1,38 +1,86 @@
-# RoadSense AI - fixed local dashboard
+# UrbanEye
 
-## Run
+UrbanEye is an AI-powered urban road-condition monitoring prototype. The dashboard consumes detection data produced by an AI/YOLO pipeline and displays the reported locations, severity, confidence, status, and detection metadata on an interactive map.
 
-1. Open a terminal in this folder.
-2. Run:
-   npm install
-3. Start:
-   npm start
-4. Open:
-   http://localhost:3000
+## Architecture
 
-API:
-http://localhost:3000/api/detections
+```text
+Video feed
+    ↓
+AI / YOLO processing
+    ↓
+Detection JSON
+    ↓
+POST /api/detections
+    ↓
+UrbanEye Node.js server
+    ↓
+Dashboard polls /api/detections
+    ↓
+Map + detection details + analytics
+```
 
-Health:
-http://localhost:3000/api/health
+## Project structure
 
-The dashboard polls `/api/detections` automatically every 3 seconds.
+```text
+urbanEye/
+├── server.js
+├── detections.json
+├── package.json
+├── package-lock.json
+├── README.md
+└── public/
+    ├── index.html
+    ├── css/
+    │   └── app.css
+    └── js/
+        └── app.js
+```
 
-The previous initialization bug was caused by JavaScript trying to write to
-`#eye`, an element that does not exist. That exception stopped execution before
-the detection polling started. The fixed HTML removes that reference.
+`node_modules/` is intentionally excluded from the project archive. Run `npm install` after extracting the project.
 
-The POST endpoint accepts:
+## Run locally
+
+```bash
+npm install
+npm start
+```
+
+Open `http://localhost:3000`.
+
+## API
+
+### Get current detections
+
+`GET /api/detections`
+
+### Submit AI detections
+
+`POST /api/detections`
+
+Example payload:
+
+```json
 {
   "detections": [
     {
       "id": "P001",
       "lat": 19.1136,
       "lon": 72.8697,
-      "confidence": 0.94
+      "confidence": 0.94,
+      "severity": "High",
+      "status": "Unresolved",
+      "frame": 120,
+      "timestamp_sec": 4.0,
+      "frames_tracked": 8,
+      "bbox_xyxy": [120, 200, 300, 350]
     }
   ]
 }
+```
 
-The next stage is to have the Ultralytics YOLO Python process POST its output
-to `/api/detections`.
+The dashboard automatically refreshes the detection feed every three seconds.
+
+## Next development stage
+
+Connect the Ultralytics YOLO video-processing script to `POST /api/detections` so that detections generated from real video replace the current demo `detections.json` data.

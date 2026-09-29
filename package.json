@@ -1,12 +1,13 @@
 {
-  "name": "roadsense-ai",
+  "name": "urbaneye",
   "version": "1.0.0",
-  "description": "RoadSense AI road monitoring dashboard",
+  "description": "UrbanEye AI-powered urban road condition monitoring dashboard",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "private": true
 }
